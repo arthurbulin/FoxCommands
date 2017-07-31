@@ -1,0 +1,66 @@
+name: JawaFoxCommands
+main: jawamaster.foxcommands.JawaFoxCommands
+version: 1.1.4a
+commands:
+  checkperm:
+    description: return true or false if a player has perm
+    usage: /checkperm
+  tpw:
+    description: Teleport the player to the specified world
+    usage: /tpw
+  sethome:
+    description: Set a player home
+    usage: /sethome
+  home:
+    description: send player to home
+    usage: /home
+  listhomes:
+    description: list player homes
+    usage: /listhomes
+  delhome:
+    description: Delete a player home
+    usage: /delhome
+  setwarp:
+    description: Set a warp
+    usage: /setwarp
+  warp:
+    description: warp to warp
+    usage: /warp
+  listwarps:
+    description: list warps
+    usage: /listwarps
+  delwarp:
+    description: delete a warp
+    usage: /delwarp
+  spawn:
+    description: Send you to current world spawn
+    usage: /spawn
+  gm:
+    description: Change gamemode
+    usage: /gm
+  back:
+    description: Go back
+    usage: /back
+  tpa:
+    description: Send a tp request
+    usage: /tpa <user>
+  tpaccept:
+    description: Accept a tp request
+    aliases: [accept, tpyes]
+    usage: /tpaccept
+  summona:
+    description: Send a summon request
+    usage: /summona
+  motd:
+    description: Motd stuff
+    usage: /motd
+  colors:
+    description: Gives list of colors
+    usage: /colors
+  randomtp:
+    description: Tps you to a random location.
+    usage: /randomtp
+  cexec:
+    usage: /cexec
+  fullbright:
+    usage: /fullbright
